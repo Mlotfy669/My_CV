@@ -140,7 +140,7 @@ h6 {
 }
 @media (max-width: 688px) {
   .my_cs .side_bar {
-    width: 502px;
+    width: 350px;
     height: 500px;
     margin-top: 1430px !important;
   }
@@ -282,7 +282,7 @@ h6 {
 }
 @media (max-width: 688px) {
   .my_cs .home_container {
-    width: 502px;
+    width: 350px;
   }
 }
 .my_cs .home_container .menu {
@@ -318,10 +318,16 @@ h6 {
 @media (max-width: 688px) {
   .my_cs .home_container .menu ul {
     padding-left: 0;
+    margin-right: -25px;
   }
 }
 .my_cs .home_container .menu ul li {
   padding: 7px 15px;
+}
+@media (max-width: 688px) {
+  .my_cs .home_container .menu ul li {
+    padding: 7px 8px;
+  }
 }
 .my_cs .home_container .menu ul li a {
   font-family: "Archivo", sans-serif;
