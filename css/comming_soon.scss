@@ -1,0 +1,147 @@
+:root {
+  --text: rgb(241, 242, 244);
+  --icon_after: rgb(12, 134, 255);
+  --link_span: rgb(12, 134, 255);
+  --menu-background: rgb(12, 134, 255);
+  --bage-background: rgb(39, 35, 51);
+  --card-background: #2c283a;
+  --container-background: rgb(48, 44, 64);
+}
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cairo", sans-serif;
+  // background-color: var(--bage-background);
+  // height: 1180px;
+  background: url('https://images.unsplash.com/photo-1449168013943-3a15804bb41c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1958d4bfb59a246c6092ff0daabd284b');
+  background-size: cover;
+}
+::selection {
+  color: var(--icon_after);
+}
+::selection {
+  color: var(--icon_after);
+}
+::-moz-selection {
+  color: var(--icon_after);
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Small  */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium  */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large  */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.comming_soon {
+  width: 550px;
+  height: 400px;
+  background-color: transparent;
+  margin: auto;
+  text-align: center;
+  margin-top: 250px;
+  h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
+  }
+  span {
+    font-family: 'Pacifico';
+    font-weight: 400;
+    font-size: 57px;
+  }
+  p {
+    font-size: 30px;
+  }
+  input {
+    outline: none;
+    border: 0;
+    padding: 10px 15px ;
+    width: 400px;
+    border-radius: 7px;
+    margin-right: 20px;
+  
+  }
+  button {
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding:10px 15px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background-color: white;
+      color: rgb(121, 121, 121);
+    }
+  }
+  .promis {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    i {
+      font-size:35px ;
+      color: white;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
