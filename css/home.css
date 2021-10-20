@@ -140,9 +140,9 @@ h6 {
 }
 @media (max-width: 688px) {
   .my_cs .side_bar {
-    width: 502px;
+    width: 400px;
     height: 500px;
-    margin-top: 1230px !important;
+    margin-top: 1330px !important;
   }
 }
 .my_cs .side_bar .side_bar_data {
@@ -282,7 +282,7 @@ h6 {
 }
 @media (max-width: 688px) {
   .my_cs .home_container {
-    width: 502px;
+    width: 400px;
   }
 }
 .my_cs .home_container .menu {
@@ -318,6 +318,7 @@ h6 {
 @media (max-width: 688px) {
   .my_cs .home_container .menu ul {
     padding-left: 0;
+    margin-right: -15px;
   }
 }
 .my_cs .home_container .menu ul li {
@@ -488,7 +489,7 @@ h6 {
 }
 @media (max-width: 688px) {
   .my_cs .home_container .testimonials .cards .test_card h3 {
-    margin-right: 110px;
+    margin-right: 20px;
   }
 }
 .my_cs .home_container .testimonials .cards .test_card span i {

@@ -119,9 +119,9 @@ h6 {
       margin-top: 1000px !important;
     }
     @media (max-width: 688px) {
-      width: 502px;
+      width: 400px;
       height: 500px;
-      margin-top: 1230px !important;
+      margin-top: 1330px !important;
     }
 
     .side_bar_data {
@@ -248,7 +248,7 @@ h6 {
       width: 635px;
     }
     @media (max-width: 688px) {
-      width: 502px;
+      width: 400px;
     }
     .menu {
       position: absolute;
@@ -277,6 +277,7 @@ h6 {
         }
         @media (max-width: 688px) {
           padding-left: 0;
+          margin-right: -15px;
         }
         li {
           padding: 7px 15px;
@@ -612,7 +613,7 @@ h6 {
               margin-right: 240px;
             }
             @media (max-width: 688px) {
-              margin-right: 110px;
+              margin-right: 20px;
             }
           }
           span {
