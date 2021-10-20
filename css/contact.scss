@@ -119,7 +119,7 @@ h6 {
       margin-top: 600px !important;
     }
     @media (max-width: 688px) {
-      width: 502px;
+      width: 350px;
       height: 500px;
       margin-top: 600px !important;
     }
@@ -248,7 +248,7 @@ h6 {
       width: 635px;
     }
     @media (max-width: 688px) {
-      width: 502px;
+      width: 350px;
     }
     .menu {
       position: absolute;
@@ -277,9 +277,13 @@ h6 {
         }
         @media (max-width: 688px) {
           padding-left: 0;
+          margin-right: -25px;
         }
         li {
           padding: 7px 15px;
+          @media (max-width: 688px) {
+            padding: 7px 8px;
+          }
           a {
             font-family: "Archivo", sans-serif;
             font-weight: 500;
