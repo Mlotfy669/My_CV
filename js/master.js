@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
   $(window).scroll(function () {
     if ($(this).scrollTop() >= 150) {
       $(".side_bar").css("height", "650");
