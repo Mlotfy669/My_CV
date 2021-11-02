@@ -24,7 +24,15 @@ body {
   background-size: cover;
 }
 
+::-moz-selection {
+  color: var(--icon_after);
+}
+
 ::selection {
+  color: var(--icon_after);
+}
+
+::-moz-selection {
   color: var(--icon_after);
 }
 
@@ -109,7 +117,7 @@ h6 {
   margin-bottom: 20px;
 }
 .comming_soon span {
-  font-family: 'Pacifico';
+  font-family: "Pacifico";
   font-weight: 400;
   font-size: 57px;
 }
@@ -156,6 +164,4 @@ h6 {
 }
 .comming_soon .links i:hover {
   transform: scale(1.2);
-}
-
-/*# sourceMappingURL=comming_soon.css.map */
+}/*# sourceMappingURL=comming_soon.css.map */

@@ -24,7 +24,15 @@ body {
   height: 1180px;
 }
 
+::-moz-selection {
+  color: var(--icon_after);
+}
+
 ::selection {
+  color: var(--icon_after);
+}
+
+::-moz-selection {
   color: var(--icon_after);
 }
 
@@ -360,7 +368,7 @@ h6 {
 }
 @media (max-width: 992px) {
   .my_cs .home_container .menu .close_menu,
-  .my_cs .home_container .menu .open_menu {
+.my_cs .home_container .menu .open_menu {
     margin-left: 0;
   }
 }
@@ -516,6 +524,4 @@ h6 {
   font-size: 14px;
   font-weight: 600;
   line-height: 1.65;
-}
-
-/*# sourceMappingURL=home.css.map */
+}/*# sourceMappingURL=home.css.map */

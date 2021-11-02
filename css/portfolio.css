@@ -24,7 +24,15 @@ body {
   height: 1180px;
 }
 
+::-moz-selection {
+  color: var(--icon_after);
+}
+
 ::selection {
+  color: var(--icon_after);
+}
+
+::-moz-selection {
   color: var(--icon_after);
 }
 
@@ -360,7 +368,7 @@ h6 {
 }
 @media (max-width: 992px) {
   .my_cs .home_container .menu .close_menu,
-  .my_cs .home_container .menu .open_menu {
+.my_cs .home_container .menu .open_menu {
     margin-left: 0;
   }
 }
@@ -465,6 +473,8 @@ h6 {
   width: 100%;
   height: 100%;
   transition: 0.3s;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .my_cs .home_container .contner .card_container span {
   font-family: "Cairo";
@@ -476,6 +486,4 @@ h6 {
   margin: 0;
   color: rgba(222, 221, 224, 0.5);
   font-size: 14px;
-}
-
-/*# sourceMappingURL=portfolio.css.map */
+}/*# sourceMappingURL=portfolio.css.map */

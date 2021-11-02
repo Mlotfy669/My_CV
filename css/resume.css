@@ -24,7 +24,15 @@ body {
   height: 1180px;
 }
 
+::-moz-selection {
+  color: var(--icon_after);
+}
+
 ::selection {
+  color: var(--icon_after);
+}
+
+::-moz-selection {
   color: var(--icon_after);
 }
 
@@ -360,7 +368,7 @@ h6 {
 }
 @media (max-width: 992px) {
   .my_cs .home_container .menu .close_menu,
-  .my_cs .home_container .menu .open_menu {
+.my_cs .home_container .menu .open_menu {
     margin-left: 0;
   }
 }
@@ -523,6 +531,4 @@ h6 {
 }
 .my_cs .home_container .skills .design .card .bar:last-of-type, .my_cs .home_container .skills .coding .card .bar:last-of-type {
   margin-bottom: 10px;
-}
-
-/*# sourceMappingURL=resume.css.map */
+}/*# sourceMappingURL=resume.css.map */
