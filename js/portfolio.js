@@ -19,7 +19,7 @@ $(document).ready(function () {
   $(".all_btn").click(function () {
     $(".template").show(300);
     $(".life").show(300);
-    $(".design").show(300);
+    $(".dashboard").show(300);
     $(".all_btn").addClass("active");
     $(".template_btn").removeClass("active");
     $(".design_btn").removeClass("active");
@@ -28,14 +28,14 @@ $(document).ready(function () {
   $(".template_btn").click(function () {
     $(".template").show(300);
     $(".life").css("display" , "none");
-    $(".design").css("display", "none");
+    $(".dashboard").css("display", "none");
     $(".template_btn").addClass("active");
     $(".all_btn").removeClass("active");
     $(".design_btn").removeClass("active");
     $(".life_btn").removeClass("active");
   });
   $(".design_btn").click(function () {
-    $(".design").show(300);
+    $(".dashboard").show(300);
     $(".template").css("display" , "none");
     $(".life").css("display", "none");
     $(".design_btn").addClass("active");
@@ -45,7 +45,7 @@ $(document).ready(function () {
   });
   $(".life_btn").click(function () {
     $(".template").css("display" , "none");
-    $(".design").css("display" , "none");
+    $(".dashboard").css("display" , "none");
     $(".life").show(300);
     $(".design_btn").removeClass("active");
     $(".template_btn").removeClass("active");
