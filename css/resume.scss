@@ -431,7 +431,8 @@ h6 {
     }
     .skills {
       display: flex;
-      align-items: center;
+      align-items: flex-end;
+      
       gap: 40px;
       @media(max-width:998px){
         flex-direction: column;
