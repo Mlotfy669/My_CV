@@ -1,20 +1,20 @@
 $(document).ready(function () {
-  $(window).scroll(function () {
-    if ($(this).scrollTop() >= 150) {
-      $(".side_bar").css("height", "650");
-      $(".side_bar").css("margin-top", "320px");
-      $(".side_bar").css("transition", "all 0.3s");
-      $(".my_cs").css("padding-top", "30px");
-      $(".side_bar_data").css("margin-top", "30px");
-      $(".side_bar_data").css("transition", "margin-top 0.3s");
-    } else {
-      $(".side_bar").css("height", "522");
-      $(".side_bar").css("margin-top", "0px");
-      $(".side_bar_data").css("margin-top", "-80px");
-      $(".my_cs").css("padding-top", "155px");
-      $(".my_cs").css("transition", "padding-top 0.3s");
-    }
-  });
+  // $(window).scroll(function () {
+  //   if ($(this).scrollTop() >= 150) {
+  //     $(".side_bar").css("height", "650");
+  //     $(".side_bar").css("margin-top", "320px");
+  //     $(".side_bar").css("transition", "all 0.3s");
+  //     $(".my_cs").css("padding-top", "30px");
+  //     $(".side_bar_data").css("margin-top", "30px");
+  //     $(".side_bar_data").css("transition", "margin-top 0.3s");
+  //   } else {
+  //     $(".side_bar").css("height", "522");
+  //     $(".side_bar").css("margin-top", "0px");
+  //     $(".side_bar_data").css("margin-top", "-80px");
+  //     $(".my_cs").css("padding-top", "155px");
+  //     $(".my_cs").css("transition", "padding-top 0.3s");
+  //   }
+  // });
   // close menu
   $(".all_btn").click(function () {
     $(".template").show(300);
@@ -51,8 +51,5 @@ $(document).ready(function () {
     $(".template_btn").removeClass("active");
     $(".all_btn").removeClass("active");
     $(".life_btn").addClass("active");
-  });
-  $(".cooming_soon").click(function () {
-    // $(".life").show(300);
   });
 });
