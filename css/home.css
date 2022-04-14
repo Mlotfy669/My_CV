@@ -80,13 +80,20 @@ h6 {
 }
 
 .my_cv {
-  background-image: url("../image/triangles-bottom.svg"), url("../image/triangles-top.svg");
-  background-position: left top, right bottom;
-  background-repeat: no-repeat;
-  background-size: inherit;
   width: 100%;
   height: 100%;
   padding: 100px 0 30px;
+  position: relative;
+}
+
+.my_cv #particles-js {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .my_cv .main_content {
@@ -661,9 +668,9 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   gap: 40px;
   margin-bottom: 40px;
 }
